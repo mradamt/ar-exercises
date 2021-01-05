@@ -6,6 +6,7 @@ puts "----------"
 
 # Your code goes here ...
 @store1 = Store.find_by(id: 1)
+@store2 = Store.find_by(id: 2)
 apparel = Store.where(mens_apparel: true, womens_apparel: true)
 
 
